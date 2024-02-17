@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 26rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.city {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0,5rem;
+}
+
+.city__name{
+  color:red;
+  font-size: 1.5rem;
+}
+
+.city__population{
+  color:blue;
+  }
+
+.city__district{
+  color:green
+}
