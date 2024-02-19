@@ -1,0 +1,18 @@
+.city {
+    list-style-type: none;
+    margin: 2rem;
+    padding: 0.5rem;
+  }
+
+.city__name{
+    color:red;
+    font-size: 1.5rem;
+  }
+  
+  .city__population{
+    color:blue;
+    }
+  
+  .city__district{
+    color:green
+  }

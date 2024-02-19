@@ -1,4 +1,5 @@
 import React from "react";
+import './city.css';
 
 export const City = ({ name, population, area, district, photo }) => {
     return (

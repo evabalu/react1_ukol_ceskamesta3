@@ -6,11 +6,11 @@ import {City} from "./components/City/city.jsx";
 
 const App = () => (
 <>
-  <h1>České městá:</h1>
+  <h1>Česká města:</h1>
   <ul className='City'>
-    {cities.map((city) => ( 
+    {cities.map((city, index) => ( 
       <City 
-      key={city.name}
+      key={index}
       name={city.name}
       population={city.population}
       area={city.area}
